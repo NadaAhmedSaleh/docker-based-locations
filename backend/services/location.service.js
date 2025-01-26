@@ -9,6 +9,7 @@ const generateRandomLocations = (numRecords) => {
       longitude: faker.location.longitude(),
       priorityScore: parseFloat((Math.random() * 100).toFixed(1)),
       name: faker.location.city(),
+      stateId: 1,
       address: faker.location.streetAddress(),
       country: faker.location.countryCode(),
       siteType: faker.helpers.arrayElement(["own", "shared", "leased"]),

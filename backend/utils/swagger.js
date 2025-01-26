@@ -22,6 +22,7 @@ const swaggerOptions = {
             latitude: { type: "number" },
             longitude: { type: "number" },
             priorityScore: { type: "number" },
+            stateId: { type: "number" },
             name: { type: "string" },
             address: { type: "string" },
             country: { type: "string" },

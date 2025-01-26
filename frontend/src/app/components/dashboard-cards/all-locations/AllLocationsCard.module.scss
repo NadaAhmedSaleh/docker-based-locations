@@ -1,0 +1,62 @@
+@import "../../../styles/variables";
+
+.allLocationsCard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: $blurred-black;
+    color: white;
+    border-radius: 2vw;
+    padding: 2vw;
+    cursor: pointer;
+}
+.allLocationsCard:hover {
+    background-color: $dark-grey;
+    .locationsCountContainer {
+        box-sizing: border-box;
+        border: 2px solid $blurred-black;
+    }
+}
+.locationsCountContainer {
+    background-color: $dark-grey;
+    border-radius: 2vw;
+    padding: 1.5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+        font-size: 3.5rem;
+        font-weight: bolder;
+        text-align: center;
+        font-family: "Anton", sans-serif;
+        letter-spacing: 0.25rem;
+    }
+    p {
+        font-weight: lighter;
+        font-size: x-small;
+    }
+}
+
+.allLocationsText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5vw;
+    h1 {
+        font-size: 2.5rem;
+        font-family: "Anton", sans-serif;
+        letter-spacing: 0.25rem;
+        max-width: 250px;
+        line-height: 1.2;
+        word-wrap: break-word;
+        margin: 0%;
+    }
+
+    p {
+        font-weight: lighter;
+        font-size: x-small;
+        max-width: 150px;
+        word-wrap: break-word;
+    }
+}

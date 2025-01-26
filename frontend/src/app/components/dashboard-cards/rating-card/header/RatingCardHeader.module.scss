@@ -1,0 +1,21 @@
+@import "../../../../styles/variables";
+
+.ratingCardHeader {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr 3fr;
+    h2 {
+        text-transform: uppercase;
+        font-family: "Anton", sans-serif;
+    }
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+.ratingTitlesContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

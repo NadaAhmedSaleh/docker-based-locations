@@ -1,0 +1,39 @@
+.ratingCardData {
+    display: flex;
+    flex-direction: column;
+
+    .valuesGrid {
+        display: grid;
+        margin: auto;
+        height: 100%;
+        grid-template-columns: 3fr repeat(5, 1fr);
+        grid-auto-rows: 1fr;
+
+        .rowLabel {
+            width: 100%;
+            height: 100%;
+            text-align: end;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 20px;
+            font-size: smaller;
+            @media (max-width: 768px) {
+                padding-right: 5px;
+            }
+        }
+
+        .oneValue {
+            margin: auto;
+            height: 60px;
+            aspect-ratio: 1 / 1;
+            border-radius: 50%;
+            background-color: #e0e0e0;
+        }
+
+        .columnLabel {
+            text-align: center;
+            font-size: xx-small;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+.customButton {
+    width: 90%;
+    height: 100%;
+    border-radius: 50px;
+    border: 0px;
+    background-color: $blurred-black;
+    margin: 0.5vw;
+    cursor: pointer;
+    font-size: 2vw;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Anton", sans-serif;
+    line-height: 2vw;
+    letter-spacing: 0.1rem;
+    @media (max-width: 768px) {
+        margin: 0.2vw;
+        height: 40px;
+    }
+}
+
+.customButton:hover {
+    background-color: $dark-grey;
+}

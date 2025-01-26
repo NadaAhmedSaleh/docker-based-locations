@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+
+.p-datatable .p-datatable-tbody > tr {
+    background-color: #1e1e1e; /* Black background for rows */
+    color: #fff; /* White text color */
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.p-datatable .p-datatable-tbody > tr > td:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.p-datatable .p-datatable-tbody > tr > td:last-child {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.p-datatable-thead > tr > th {
+    text-transform: capitalize;
+    text-align: center;
+    color: $dark-grey;
+    background-color: $light-grey;
+    padding: 5px;
+}

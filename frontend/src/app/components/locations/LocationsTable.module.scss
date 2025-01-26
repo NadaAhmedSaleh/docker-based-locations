@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+
+
+.locationsTableContainer {
+    background-color: $light-grey;
+    height: 70vh;
+    padding: 40px;
+    border-radius: 30px;
+    @media (max-width: 768px) {
+        overflow-y: auto;
+
+    }
+}
+
+.siteName {
+    color: #28a745; /* Green color */
+    font-weight: bold; /* Bold font */
+}
+
